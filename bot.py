@@ -204,7 +204,7 @@ async def unknown(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 def main():
-    TOKEN = os.getenv("BOT_TOKEN") or "ВАШ_ТОКЕН_ТУТ"
+    TOKEN = os.getenv("7019585801:AAGU_Aah9pr_e1qAxb5wTygLELiRjeq9unI") or "ВАШ_ТОКЕН_ТУТ"
 
     app = ApplicationBuilder().token(TOKEN).build()
 
